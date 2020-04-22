@@ -3,57 +3,107 @@
 		"": ""
 	},
 	"KOLKATA": {
-		"Saikat":"+918653478447"
+		"Saikat": "8653478447",
+		"Swagata": "8373866132",
+		"Himon": "8017471053",
+		"Nadia":"9831652420"
 	},
 	"SOUTH 24 PARGANA": {
-		"Pradipta": "+918101083097",
-		"Subharthi": "+91990345425",
-		"Subhajit": "+919804759048"
+		"Bapon": "8001200765",
+		"Pradipta": "8101083097",
+		"Subharthi": "990345425",
+		"Subhajit": "9804759048"
 	},
 	"NORTH 24 PARGANA": {
-		"Jayasree": "+917003811934",
-		"Rupkatha": "+919038202717",
-		"Sayan": "+918145017985"
+		"Jayasree": "7003811934",
+		"Rupkatha": "9038202717",
+		"Sayan": "8145017985"
 	},
 	"BANKURA": {
-		"Aishwarya": "+918910895535",
-		"Rajshekhar": "+9163100415"
+		"Aishwarya": "8910895535",
+		"Rajshekhar": "9163100415",
+		"Tamonash": "7001148413",
+		"Indranath": "8617321646"
 	},
 	"HOWRAH": {
-		"Surajit": "+919007525428",
-		"Avik": "+918240029396"
+		"Surajit": "9007525428",
+		"Avik": "8240029396",
+		 "Samsul": "6295780569"
 	},
 	"HOOGHLY": {
-		"Sayan": "+917003197491",
-		"Debraj": "+917059253883",
-		"Suniti": "+917001270732"
+		"Debraj": "7059253883",
+		"Suniti": "7001270732",
+		"Hiranmoy": "9749510961",
+		"Ranit": "9875362180"
 	},
 	"PURBA MEDNIPUR": {
-		"Gourab": "+919679934367",
-		"Atanu": "+919330914987"
+		"Gourab": "9679934367",
+		"Atanu": "8944853802",
+		"Subha": "8250110071"
 	},
 	"BURDWAN": {
-		"Arohan": "+919382381578"
+		"Arohan": "9382381578",
+		"Saswata": "8373866256", 
+		"Aniket": "7872655351 ",
+		"Debarghya": "8777295847"
 	},
 	"UTTAR DINAJPUR": {
-		"Ahtesham": "+917031246203"
+		"Ahtesham": "7031246203"
 	},
 	"PURULIA": {
-		"Gourav": "+918637027140",
-		"Avik": "+918116454727"
+		"Gourav": "8637027140",
+		"Avik": "8116454727"
 	},
 	"PASCHIM MEDINIPUR": {
-		"Soumya": "+917407875771"
+		"Soumya": "7407875771"
 	},
 	"MALDA": {
-		"Gopinath": "+918972568877",
-		"Shain": "+917679159416"
+		"Gopinath": "8972568877",
+		"Shain": "7679159416",
+		"Kaiyum": "9775704060",
+		"Sujan": "8918874233"
 	},
 	"MURSHIDABAD": {
-		"Ohidur": "+917908453953",
-		"Javed": "+919933906420"
+		"Ohidur": "7908453953",
+		"Javed": "9933906420",
+		"Monirul": "702981370"
+	},
+	"NADIA": {
+		"Atish": "7695862150",
+		"Sayan": "8001330573"
+	},
+	"JALPAIGURI": {
+		"Aryama": "9830743862"
+	},
+	"ALIPURDUAR": {
+		"Sutirtha": "7063774461",
+		"Shibam": "8170074052"
+	},
+	"BIRBHUM": {
+		"Dhruba": "9474673174",
+		"Snehasish": "7797094032"
+	},
+	"SOUTH DINAJPUR": {
+		"Pratik": "8337845351",
+        "Pushpak": "6291770097"
+	},
+	"JHARGRAM": {
+		"Soumya": "7318712147",
+        "Rakesh": "7059601763"
 	},
 	"DELHI": {
-		"Debojit": "+917292013690"
+		"Debojit": "7292013690"
+	},
+	"HYDRABAD": {
+		"Debojit": "7292013690"
+	},
+	"MUMBAI": {
+		"Debojit": "7292013690"
+	},
+	"CHENNAI": {
+		"Debojit": "7292013690"
+	},
+	"BANGALORE": {
+		"Debojit": "7292013690"
 	}
 }
