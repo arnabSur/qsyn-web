@@ -79,8 +79,6 @@ function place_markers(db_data){
 		var l2 = "<strong>Information:</strong><br>" + obj['info'] + "<br>";
 		m.bindPopup(l1 + l2);
 	}
-
-	}
 	console.log('marker placed');
 }
 
@@ -141,8 +139,7 @@ document.getElementById('report-but').onclick = function() {
 		'info': info_html,
 		'addr': addr_html,
 		'lat': latlng['lat'],
-		'lng': latlng['lng'],
-		'verified': false,
+		'lng': latlng['lng']
 	}
 
 	console.log(data);
