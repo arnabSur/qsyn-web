@@ -72,15 +72,13 @@ function place_markers(db_data){
 	console.log('placing markers');
 	for (var i in db_data) {
 		obj = db_data[i];
-		if (obj['verified']) {
-			var db_latlng = {'lat': obj['lat'], 'lng': obj['lng']};
-			console.log(db_latlng);
-			var m = L.marker(db_latlng).addTo(map);
-			var l1 = "<strong>Area:</strong><br>" + obj['addr'] + "<br>";
-			var l2 = "<strong>Information:</strong><br>" + obj['info'] + "<br>";
-
-			m.bindPopup(l1 + l2);
-		}
+		var db_latlng = {'lat': obj['lat'], 'lng': obj['lng']};
+		console.log(db_latlng);
+		var m = L.marker(db_latlng).addTo(map);
+		var l1 = "<strong>Area:</strong><br>" + obj['addr'] + "<br>";
+		var l2 = "<strong>Information:</strong><br>" + obj['info'] + "<br>";
+		m.bindPopup(l1 + l2);
+	}
 
 	}
 	console.log('marker placed');
