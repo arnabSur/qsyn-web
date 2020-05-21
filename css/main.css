@@ -78,8 +78,6 @@ p.contrib-text {
 
 
 .voldisp {
-    width: 80vw;
-    margin-left: 10vw;
     display: block;
 }
 
@@ -234,8 +232,7 @@ div.fb_f {
 
 	.voldisp {
 		display: inline-block;
-		width: 80vw !important;
-		margin-left: 10vw;
+		width: 100%;
 	}
 
 }
@@ -281,7 +278,6 @@ div.fb_f {
 
 	.voldisp {
 		display: inline-block;
-		width: 60vw !important;
-		margin-left: 20vw;
+		width: 100%;
 	}
 }
