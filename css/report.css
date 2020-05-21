@@ -1,0 +1,59 @@
+.head {
+    text-align: center;
+    font-size: 1.6em;
+    letter-spacing: 0.07em;
+    font-weight: 400;
+    text-transform: uppercase;
+    }
+
+.intro {
+    padding-left: 10vw;
+    padding-right: 10vw;
+}
+
+#mapid {
+    margin-top: 5em;
+    z-index: 1;
+    height: 500px;
+    width: 80vw;
+    margin-left: 10vw;
+
+}
+
+form.report {
+    width: 80vw;
+    margin-left: 10vw;
+}
+
+#loc-found{
+    color: #cc0000;
+    font-weight: 400;
+    padding-bottom: 10px;
+}
+
+#locate {
+    width: auto;
+    margin-bottom: 10px;
+}
+
+#report-but {
+    width: auto;
+    background-color: red;
+    color: white;
+    margin-top: 20px;
+}
+
+@media (min-width: 78em) {
+    #mapid {
+        height: 95vh;
+        width: 60vw;
+        margin-left: 20vw;
+    }
+
+    form.report {
+        width: 60vw;
+        margin-left: 20vw;
+    }
+
+
+}

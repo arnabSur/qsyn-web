@@ -9,7 +9,9 @@
 
     <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.1/build/pure-min.css" integrity="sha384-oAOxQR6DkCoMliIh8yFnu25d7Eq/PHS21PClpwjOTeU2jRSq11vu66rf90/cZr47" crossorigin="anonymous">
     <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.1/build/grids-responsive-min.css">
-    <link rel="stylesheet" href="css/style.css">
+    
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/main.css">
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
@@ -19,7 +21,7 @@
 <!-- Menu -->
 <div class="header">
 	<div class="home-menu pure-menu pure-menu-horizontal pure-menu-fixed">
-		<a href="#top"><img class="header-img" src="img/logo-2.png" height="30" width="30"/></a>
+		<a href="#top"><img class="header-img" src="img/logo-2.png" height="42" width="42"/></a>
         <ul class="pure-menu-list">
             <li class="pure-menu-item"><a href="#contrib" class="pure-menu-link">Contribute</a></li>
             <li class="pure-menu-item"><a href="#contact" class="pure-menu-link">Contact</a></li>
@@ -29,26 +31,22 @@
 </div>
 
 <!-- Splash -->
-<div class="splash-container">
-    <div class="splash">
+<div class="page cover">
+    <div class="content">
     	<img src="img/head.webp">
-        <h1 class="splash-head">Physical Distance Social Solidarity</h1>
-        <p class="splash-subhead">
+        <h1 class="cover-head">Physical Distance <br> Social Solidarity</h1>
+        <p class="cover-subhead">
             Quarantined Student-Youth Network is an initiative by students and youth from various parts of Bengal to stand in solidarity and provide food/ration to people-in-need.
         </p>
         <p>
-            <a href="#contrib" class="pure-button splash-button">Contribute</a>
+            <a href="#contrib" class="pure-button cover-button">Contribute</a>
         </p>
     </div>
 </div>
-
-<div class="content-wrapper">
-    
-    <div class="content">
-        
-        <!-- Initiative -->
-        <div class="content-text is-center">
-        	<h2 class="content-head is-center">Initiative</h2>
+<div class="page">
+<div class="content">
+    <!-- Initiative -->
+        <h2 class="content-head is-center">Initiative</h2>
 
 			<p>
         		The current state of lock-down is a way to battle the COVID-19 virus. Many would agree that it is a fight for the preservation of human civilization as whole. But another battle exists simultaneously – the fight for those who may die of hunger much before infection from the virus.
@@ -65,30 +63,27 @@
 			<p>The report page displays all the places in West Bengal where people have reported problems with the Pubic Distribution System (PDS) set up by the Government. You can also report problems in your area. Follow the link to see the map and report.</p>
 			<a href="report.html" class="pure-button pure-button-primary">Report</a>
 
-		</div>
-	</div> 
-    
+</div>
+</div>
     <!-- Contribute -->
     <div class="contrib pure-g" id="contrib">
     	<div class="pure-u-1">
         	<h2 class="contrib-head is-center">Contribute Here</h2>
-    	</div>
-    	<div class="pure-u-1-2 contrib-text">
-       		<p class="contrib-text">Account Name: Manmatha Roy</p>
-			<p class="contrib-text">Bank Name: Allahabad Bank</p>
-			<p class="contrib-text">Account No: 50460012395</p>
-			<p class="contrib-text">IFSC No: ALLA0210631</p>
-			<p class="contrib-text">GPAY: 9163003100</p>
-			<p class="contrib-text">OR</p>
-			<p class="contrib-text">GPAY/PhonePe Gopinath Raj:</p>
-			<p class="contrib-text">9475432892</p>
-    	</div>
-    	<div class="pure-u-1-2">
-       		<img src="img/contrib_qr.webp" class="contrib-img">
+            <p class="">
+       		Account Name: Manmatha Roy<br>
+			Bank Name: Allahabad Bank<br>
+			Account No: 50460012395<br>
+			IFSC No: ALLA0210631<br>
+			GPAY: 9163003100<br>
+			OR<br>
+			GPAY/PhonePe Gopinath Raj:<br>
+			9475432892<br>
+        </p>
     	</div>
     </div>
 
     <!-- Contact -->
+<div class="page">
     <div id="contact">
         <h2 class="content-head is-center">Contact Us</h2>
         <div class="pure-g soc-buttons">
@@ -101,7 +96,7 @@
         		</center>
         	</div>
         </div>
-
+    
          <!-- Contacts -->
 		<div class="pure-g">
 			<div class="pure-u-1">
@@ -137,26 +132,25 @@
                 </div>
                 </fieldset>
             </form>
-            <h2 class="content-head is-center">View our Updates on FaceBook</h2>
+            <h2 class="content-head is-center">View our Updates on Facebook</h2>
             <div class="fb_f">
         		<center><iframe id="fb_frame" class="fb_f"></iframe></center>
         	</div>
     </div>
-
 </div>
 
 
 <script type="text/javascript">
+    var fb_frame_elem = document.getElementById("fb_frame");
 
 	var h = Math.floor(window.innerHeight * 0.8);
-	var w = Math.floor(window.innerWidth * 0.8);
+    var w = Math.floor(window.innerWidth * 0.8);
 
 	if (window.innerWidth >= 540) {
 		w = 500;
 	}
 
 	var fb_src = "https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fqsynetwork&tabs=timeline&width=" + w + "&height=" + h + "&small_header=true&adapt_container_width=true&hide_cover=true&show_facepile=false&appId";
-	var fb_frame_elem = document.getElementById("fb_frame");
 
 	fb_attrs = {'src': fb_src, 
 				'height': h.toString(),
@@ -172,5 +166,5 @@
 	}
 </script>
 </body>
-<script type="text/javascript" src="scripts/volun.js"></script>
+<script type="text/javascript" src="scripts/contacts.js"></script>
 </html>
